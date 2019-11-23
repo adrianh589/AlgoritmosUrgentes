@@ -8,7 +8,7 @@ Algoritmo DptoSeguridad
 	Leer n
 	
 	Para i<-1 Hasta n Con Paso 1 Hacer
-		Escribir "Introduzca la placa del auto ",(i+1);
+		Escribir "Introduzca la placa del auto ",i;
 		Leer placa;
 		pos = Longitud(placa);
 		ultimoDigito = Subcadena(placa, pos,pos)
